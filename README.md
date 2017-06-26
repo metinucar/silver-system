@@ -1,6 +1,8 @@
 # Planning Deck
 Planning Deck is a consensus-based & gamified application for estimating development goals.
 
+![Planning Deck screenshot](https://d26dzxoao6i3hh.cloudfront.net/items/2H1r1k021Y1n2n1Y2P1c/Image%202017-06-26%20at%205.05.28%20fm.png?v=45f06dd3)
+
 ## Usage
 1. Choose a card
 2. Wait while others choose their cards
