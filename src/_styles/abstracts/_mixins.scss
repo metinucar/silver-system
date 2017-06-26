@@ -1,0 +1,6 @@
+// Simplify styling of hover, active and focus states
+@mixin hover-states {
+  &:hover, &:active, &:focus {
+    @content;
+  }
+}

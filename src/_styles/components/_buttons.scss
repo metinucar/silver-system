@@ -1,0 +1,26 @@
+.btn {
+  background-color: $white;
+  border: 0;
+  line-height: 1;
+  border-radius: $border-radius;
+  text-align: center;
+  font-size: ms(0);
+  padding: ms(-1) ms(4);
+  margin: 0.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $text-color;
+  box-shadow: 0 2px 4px 1px rgba($text-color, .2);
+  transition: all 300ms linear;
+
+  @include hover-states {
+    box-shadow: 0 4px 8px 2px rgba($text-color, .2);
+  }
+
+  &.disabled {
+    pointer-events: none;
+    box-shadow: none;
+    cursor: not-allowed
+  }
+
+}

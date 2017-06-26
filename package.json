@@ -5,7 +5,8 @@
   "dependencies": {
     "jquery": "~3.1.1",
     "modularscale-sass": "^3.0.3",
-    "normalize.css": "~5.0.0"
+    "normalize.css": "~5.0.0",
+    "sass-mq": "^3.3.2"
   },
   "devDependencies": {
     "lodash": "~4.17.4",

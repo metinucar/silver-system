@@ -1,0 +1,59 @@
+// Basic typography style for copy text
+body {
+  font-family: $text-font-stack;
+  font-size: ms(0);
+  line-height: 1.5
+}
+
+// Headers
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-stack;
+  text-transform: uppercase;
+  margin: 0 0 ms(-1) 0;
+  line-height: 1
+}
+
+h1 {
+  font-size: ms(6);
+  margin-bottom: ms(1)
+}
+
+h2 {
+  font-size: ms(5);
+}
+
+h3 {
+  font-size: ms(4);
+}
+
+h4 {
+  font-size: ms(3);
+}
+
+h5 {
+  font-size: ms(2);
+}
+
+h6 {
+  font-size: ms(1);
+  margin-bottom: ms(-2)
+}
+
+
+// Body text
+p {
+  margin: 0 0 ms(0) 0;
+}
+
+
+// Links
+a {
+  color: $brand-primary;
+  transition: all 300ms linear;
+  text-decoration: none;
+
+  @include hover-states {
+    text-decoration: none;
+  }
+
+}
