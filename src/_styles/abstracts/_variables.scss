@@ -1,0 +1,43 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Roboto');
+
+// Fonts
+$text-font-stack: 'Roboto', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$header-font-stack: 'Open Sans Condensed', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+// Brand colors
+$brand-primary: #66b0c7;
+$brand-secondary: #e30a4d;
+
+// Colors
+$text-color: #2b2f2f;
+$light-grey: rgb(237, 237, 237);
+$mid-grey: rgb(153, 153, 153);
+$dark-grey: rgb(68, 68, 68);
+$white: rgb(255, 255, 255);
+
+// Modular scale
+$modularscale: (
+  base: 1rem,
+  ratio: 1.125
+  );
+
+// Media query breakpoints
+$mq-breakpoints: (
+  mobile:  576px,
+  tablet:  768px,
+  desktop: 992px,
+  wide:    1200px
+);
+
+// Spacing
+$spacing: (
+  regular: ms(0),
+  tiny: ms(-10),
+  small: ms(-5),
+  large: ms(2),
+  xlarge: ms(4)
+);
+
+// Misc
+$border-radius: ms(-10);
